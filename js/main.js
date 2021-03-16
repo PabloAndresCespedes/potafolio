@@ -1,5 +1,5 @@
  AOS.init({
- 	duration: 800,
+ 	duration: 500,
  	easing: 'slide',
  	once: false
  });
@@ -320,3 +320,7 @@ jQuery(document).ready(function($) {
 	counter();
 
 });
+
+function menu(){
+	console.log('Template cargado');
+}
